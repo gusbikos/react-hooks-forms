@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Form from "./Form";
 import DisplayData from './DisplayData'
-
+//
 function ParentComponent() {
     const [firstName, setFirstName] = useState("John");
     const [lastName, setLastName] = useState("Henry");
